@@ -35,8 +35,7 @@ Basicamente, o Git funciona armazenando os arquivos do projeto em um repositóri
 
 ```
  git add nome_do_arquivo_ou_pasta
-  or
- git add . // -> Adiciona todos os arquivos
+ git add .  ->  Adiciona todos os arquivos
 ```
 
 <h6> Verificar Status do Git </h6>
