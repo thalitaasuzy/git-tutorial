@@ -11,7 +11,7 @@ Basicamente, o Git funciona armazenando os arquivos do projeto em um repositóri
 
 <h5> Principais Comandos </h5>
 
-<h6> Navegar até o Repositório </h6>
+<h6> Navegar até o Diretório </h6>
 
 ```bash 
   cd caminho/para/o/seu/repositório
