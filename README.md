@@ -11,36 +11,47 @@ Basicamente, o Git funciona armazenando os arquivos do projeto em um repositóri
 
 <h5> Principais Comandos </h5>
 
+<h6> Navegar até o Repositório </h6>
+
+```bash 
+  cd caminho/para/o/seu/repositório
+```
 
 <h6>Inicializar um Repositório Git</h6>
 
-``` 
+```bash
   git init
 ```
 
 <h6>Configuração Inicial (Se ainda não configurou)</h6>
 
-```
+```bash
   git config --global user.name "SeuNome"
   git config --global user.email "seuemail@example.com"
 ```
 
-<h6> Navegar até o Repositório </h6>
+<h6>Trocar branch</h6>
 
-``` 
- cd caminho/para/o/seu/repositório
-```
+```bash
+  git checkout main
+ ```
+
+<h6>Criar e Trocar para a branch</h6>
+
+```bash
+  git checkout -b nome_da_branch
+ ```
 
 <h6> Adicionar Arquivos ao Stage </h6>
 
-```
- git add nome_do_arquivo_ou_pasta
- git add .  ->  Adiciona todos os arquivos
+```bash
+  git add nome_do_arquivo_ou_pasta
+  git add .  ->  Adiciona todos os arquivos
 ```
 
 <h6> Verificar Status do Git </h6>
 
-```
+```bash
  git status
 ```
 
@@ -49,46 +60,36 @@ Basicamente, o Git funciona armazenando os arquivos do projeto em um repositóri
 
 <h6> Adicione o Repositório Remoto ao seu Repositório Local </h6>
 
-```
+```bash
  git remote add origin URL_do_seu_repositório_no_GitHub
 ```
 
 <p>Por exemplo, se estiver utilizando HTTPS<p>
 
-```
+```bash
  git remote add origin https://github.com/seu_usuario/seu_repositorio.git
 ```
 
 <h6> Verificar a Origem Adicionada </h6>
 
-```
-git remote -v
+```bash
+  git remote -v
 ```
 
 <h6> Criar o Commit </h6>
 
-```
-git commit -m "Mensagem descritiva do commit"
+```bash
+  git commit -m "Mensagem descritiva do commit"
 ```
 
+<h6> Puxar arquivos do repositório remoto </h6>
 
-<h6> Puxar arquivos do repositório remmoto </h6>
-
-```
-git pull origin nome_da_branch
+```bash
+  git pull origin nome_da_branch
 ```
 
 <h6> Enviar Commits para a Origem Remota </h6>
 
+```bash
+  git push origin nome_da_branch
 ```
-git push origin nome_da_branch
-```
-
-
-
-
-
-
-
-
-
