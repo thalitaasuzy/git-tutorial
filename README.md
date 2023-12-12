@@ -93,3 +93,26 @@ Basicamente, o Git funciona armazenando os arquivos do projeto em um repositóri
 ```bash
   git push origin nome_da_branch
 ```
+
+</br>
+
+<h5> Outros Comandos Úteis </h5>
+
+<h6> Permitir a União de Histórias Não Relacionadas </h6>
+
+```bash
+ git pull origin nome_da_branch --allow-unrelated-histories
+
+```
+<p> Necessário quando você está tentando mesclar duas branches que não têm históricos comuns, o que pode acontecer, por exemplo, quando você cria uma nova branch a partir de uma existente e o Git não reconhece a relação entre elas</p>
+
+<h6> Excluir uma Branch </h6>
+
+```bash
+  git branch -d nome_da_branch   # Para remover localmente
+  git push origin --delete nome_da_branch   # Para remover do repositório remoto
+
+```
+
+
+
