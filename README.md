@@ -93,10 +93,18 @@ Basicamente, o Git funciona armazenando os arquivos do projeto em um repositóri
 ```bash
   git push origin nome_da_branch
 ```
+<p> Nesse momento, o terminal vai pedir suas credencias: username e password, porem a senha como chave de acesso foi descontinuada do github em 2021, e voce precisa substitui-la por um token de acesso, que pode ser gerado manualmente nas configuracoes de sua conta.</p>
 
 </br>
 
 <h5> Outros Comandos Úteis </h5>
+
+<h6> Forca o comando push </h6>
+
+```bash
+ git push origin nome_da_branch -f
+
+```
 
 <h6> Permitir a União de Histórias Não Relacionadas </h6>
 
