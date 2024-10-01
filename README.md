@@ -1,4 +1,4 @@
-<h2> GitHub Tutorial </h2> 
+<h2> Git Tutorial </h2> 
 
 <h5>Introdução aos conceitos fundamentais do Git e GitHub.</h5>
 <p>Git e Github são utilizados no dia a dia das pessoas que criam softwares por um motivo bem simples: ter uma forma fácil de gerenciar o código-fonte da aplicação, do sistema e do produto.
